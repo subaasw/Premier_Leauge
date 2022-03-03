@@ -1,0 +1,38 @@
+.box {
+  width: 130px;
+  height: 10px;
+  background-color: rgb(239, 239, 239);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding: 15px 10px;
+}
+.box:hover {
+  box-shadow: 2px 0px 0px 1px rgba(190, 190, 190, 0.284);
+}
+
+.box > i {
+  font-size: 16px;
+  color: #777;
+}
+
+.box input {
+  background-color: rgb(239, 239, 239);
+  height: 40px;
+  border: none;
+  width: 75%;
+  outline: none;
+  padding-left: 10px;
+}
+
+@media (max-width: 656px) {
+  .box {
+    width: 110px;
+  }
+  .box input {
+    font-size: 12px;
+  }
+  .box > i {
+    font-size: 14px;
+  }
+}
